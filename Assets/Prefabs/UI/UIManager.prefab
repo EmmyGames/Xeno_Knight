@@ -45,5 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: {fileID: 0}
   infoCanvas: {fileID: 0}
+  cursorCanvas: {fileID: 0}
   tooltipRect: {fileID: 0}
   characterPanel: {fileID: 0}
