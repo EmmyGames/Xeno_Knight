@@ -6,6 +6,8 @@
     <e p="D:\Documents - data drive\GitHub\Repositories\Xeno_Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AimDownSightsBehavior.cs" t="Include" />
+        <e p="ExitAimDownSightsBehavior.cs" t="Include" />
         <e p="Flooded_Grounds" t="Include">
           <e p="Content" t="Include">
             <e p="Shaders" t="Include">
@@ -91,6 +93,7 @@
           <e p="RPGRelated" t="Include">
             <e p="Bag.cs" t="Include" />
             <e p="BagScript.cs" t="Include" />
+            <e p="BowStats.cs" t="Include" />
             <e p="ButtonScripts" t="Include">
               <e p="CharacterButton.cs" t="Include" />
               <e p="OpenInventoryButton.cs" t="Include" />
@@ -110,9 +113,9 @@
             <e p="QualityColor.cs" t="Include" />
             <e p="SlotScript.cs" t="Include" />
             <e p="StatsWindow.cs" t="Include" />
+            <e p="SwordStats.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
             <e p="VFXController.cs" t="Include" />
-            <e p="WeaponStats.cs" t="Include" />
           </e>
           <e p="SpawnEnemy.cs" t="Include" />
           <e p="WeaponStatus.cs" t="Include" />

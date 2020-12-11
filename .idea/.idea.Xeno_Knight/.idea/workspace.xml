@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="24702268-5b8f-4822-8598-8aa3968f5b2b" name="Default Changelist" comment="" />
+    <list default="true" id="24702268-5b8f-4822-8598-8aa3968f5b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Back.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Back.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Forward.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Forward.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FreeBarrowsWagons/textures/hay.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeBarrowsWagons/textures/hay.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sword.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +53,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BowStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/SwordStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/AimDownSightsBehavior.cs" />
       </list>
     </option>
   </component>
@@ -58,6 +107,8 @@
       <updated>1607543449176</updated>
       <workItem from="1607543455212" duration="168000" />
       <workItem from="1607652371655" duration="187000" />
+      <workItem from="1607714129666" duration="67000" />
+      <workItem from="1607714558467" duration="6004000" />
     </task>
     <servers />
   </component>
@@ -66,7 +117,24 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="2321" height="1387" key="dock-window-1" timestamp="1607721725672">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="0" y="0" width="2321" height="1387" key="dock-window-1/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607721725672" />
   </component>
 </project>

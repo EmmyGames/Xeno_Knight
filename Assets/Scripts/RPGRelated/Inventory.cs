@@ -202,7 +202,6 @@ public class Inventory : MonoBehaviour
         bag.MyBagScript.OpenClose();
 
         bool closedBag = bag.MyBagScript.IsOpen;
-        Debug.Log(closedBag);
 
         //If closed bag == true, then open all closed bags
         //If closed bag == false, then close all open bags

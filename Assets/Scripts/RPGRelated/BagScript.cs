@@ -16,7 +16,6 @@ public class BagScript : MonoBehaviour
     public void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        Debug.Log("Hello");
     }
     public bool IsOpen
     {
@@ -74,7 +73,6 @@ public class BagScript : MonoBehaviour
     }
     public void OpenClose()
     {
-        Debug.Log("Is this being called?");
         canvasGroup.alpha = canvasGroup.alpha > 0 ? 0 : 1; //if 0 then set to 1, if 1 then set to 0
         canvasGroup.blocksRaycasts = canvasGroup.blocksRaycasts == true ? false : true; //if raycast blocking is true then set to false, else set to true*/
     }

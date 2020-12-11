@@ -8,13 +8,13 @@ public class Movement : MonoBehaviour
     //Components
     private CharacterController _character;
 
-    private const float Gravity = -9.81f;
+    private const float Gravity = -20f;
 
     //Movement
     private Vector3 _direction;
     private Vector3 _lastDirection;
 
-    public float jumpHeight = 1.3f;
+    public float jumpHeight = 1.7f;
     public float walkSpeed = 3.5f;
     public float walkBackMultiplier = 0.8f;
     public float sprintSpeed = 6f;

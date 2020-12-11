@@ -41,7 +41,6 @@ public class UIManager : MonoBehaviour
             characterPanel.OpenClose();
             Inventory.MyInstance.OpenClose();
             CursorOpenClose();
-            Debug.Log("pressing m");
         }
         if (Input.GetButtonDown("OpenCloseInfo"))
         {

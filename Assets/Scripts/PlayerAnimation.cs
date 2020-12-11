@@ -12,6 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     private int _isSprinting;
     private int _isGrounded;
     private int _isAttacking;
+    private int _isADS;
     public int shouldMove;
     private int _weaponType;
     void Start()
@@ -20,6 +21,7 @@ public class PlayerAnimation : MonoBehaviour
         _isSprinting = Animator.StringToHash("isSprinting");
         _isGrounded = Animator.StringToHash("isGrounded");
         _isAttacking = Animator.StringToHash("isAttacking");
+        _isADS = Animator.StringToHash("isADS");
         shouldMove = Animator.StringToHash("shouldMove");
         _weaponType = Animator.StringToHash("weaponType");
     }
@@ -31,6 +33,7 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(_isSprinting, playerScript.playerInput.isSprinting);
         anim.SetBool(_isGrounded, playerScript.playerMovement.isGrounded);
         anim.SetBool(_isAttacking, playerScript.playerInput.isAttacking);
+        anim.SetBool(_isADS, playerScript.playerInput.isADS);
         anim.SetInteger(_weaponType, playerScript.weaponStatus.weaponTypeInt);
     }
 }

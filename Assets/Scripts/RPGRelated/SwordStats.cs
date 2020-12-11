@@ -1,12 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using TMPro;
-using UnityEngine.UI;
 
-public class WeaponStats : MonoBehaviour
+public class SwordStats : MonoBehaviour
 {
-    public Weapon weapon;
     /*public Text AttackValue;
     public Text DurabilityValue;*/
 
@@ -14,7 +11,6 @@ public class WeaponStats : MonoBehaviour
     private MeshRenderer _meshRenderer;
     private bool _isCollected = false;
     private Collider _player;
-    public Transform transformOffset;
 
     private void Start()
     {
@@ -51,13 +47,5 @@ public class WeaponStats : MonoBehaviour
     {
         weaponColliders[1].enabled = false;
         _meshRenderer.enabled = false;
-    }
-
-    private void UpdateTransform()
-    {
-        /*transform.position = _player.gameObject.GetComponent<PlayerScript>().weaponTransform.position +
-                             transformOffset.position;
-        transform.rotation = _player.gameObject.GetComponent<PlayerScript>().weaponTransform.rotation *
-                             transformOffset.rotation;*/
     }
 }
