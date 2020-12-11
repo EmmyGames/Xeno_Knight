@@ -10,6 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1lQy8IoC6xQafypbk89wrAcensY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607543449176</updated>
       <workItem from="1607543455212" duration="168000" />
+      <workItem from="1607652371655" duration="187000" />
     </task>
     <servers />
   </component>
