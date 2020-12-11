@@ -23,13 +23,9 @@ public class StatsWindow : MonoBehaviour
 
     public int weaponAttack;
 
-    public Slider shieldDur;
-    public Slider meleeDur;
-    public Slider rangeDur;
-
-    public int currentShield;
-    public int currentMelee;
-    public int currentRange;
+    //public Slider shieldDur;
+    //public Slider meleeDur;
+    //public Slider rangeDur;
 
     void Start()
     {
@@ -40,15 +36,16 @@ public class StatsWindow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("melee attack" + meleeButton.getWeapon().attack + "durability is" + meleeButton.getWeapon().durability);
+        //Debug.Log("melee attack" + meleeButton.getWeapon().attack);
         //meleeButton.getWeapon();
-        Debug.Log("Range attack" + rangeButton.getWeapon().attack);
+        //Debug.Log("Range attack" + rangeButton.getWeapon().attack);
         //Debug.Log("Shield defense" + shieldButton.getWeapon().defense);
         ChangeText();
     }
 
     public void ChangeText()
     {
+        //Debug.Log(meleeButton.getWeapon().attack);
         currentMeleeAttack += meleeButton.getWeapon().attack;
         currentDefense += shieldButton.getWeapon().defense;
         currentRangeAttack += rangeButton.getWeapon().attack;
@@ -60,9 +57,9 @@ public class StatsWindow : MonoBehaviour
 
     public void LessenDurability()
     {
-        shieldDur.value = currentShield;
-        meleeDur.value  =currentMelee;
-        rangeDur.value = currentRange;
+        //shieldDur.value = currentShield;
+        //meleeDur.value  =currentMelee;
+        //rangeDur.value = currentRange;
     }*/
 
 }

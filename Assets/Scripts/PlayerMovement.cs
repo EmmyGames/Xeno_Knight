@@ -17,10 +17,13 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundMask;
     public bool isGrounded;
-    
+
+    AudioSource walkingAudio;
+    //walkingAudio.Play(); -//NOTE: This audio is on loop (IDK how long it'll last) so make sure it actually stops when the player stops
     // Start is called before the first frame update
     private void Start()
     {
+        walkingAudio = GetComponent<AudioSource>();
         _startCamRotation = lookDirTransform.eulerAngles.y;
     }
 

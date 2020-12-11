@@ -10,10 +10,13 @@ public class VFXController : MonoBehaviour
     public float timer = 0f;
     private VisualEffect visualEffect;
 
+    AudioSource equipAudio;
+
     void Start()
     {
         //bool DestroyOnEnd = false;
         visualEffect = GetComponent<VisualEffect>();
+        equipAudio = GetComponent<AudioSource>();
         
     }
 
@@ -27,6 +30,7 @@ public class VFXController : MonoBehaviour
     {
         //visualEffect.SendEvent("OnPlay");
         visualEffect.Play();
+        equipAudio.Play();
         yield return new WaitForSeconds(1);
         visualEffect.Stop();
         /*if (timer >= duration)

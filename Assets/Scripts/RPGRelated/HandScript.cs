@@ -8,6 +8,9 @@ public class HandScript : MonoBehaviour
 {
     private static HandScript instance;
 
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
     public static HandScript MyInstance
     {
         get
@@ -27,6 +30,7 @@ public class HandScript : MonoBehaviour
     void Start()
     {
         icon = GetComponent<Image>();
+        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
     }
 
     // Update is called once per frame
@@ -38,6 +42,7 @@ public class HandScript : MonoBehaviour
         {
             DeleteItem();
         }
+
         
     }
 
@@ -45,6 +50,7 @@ public class HandScript : MonoBehaviour
     {
         this.MyMoveable = moveable;
         icon.sprite = moveable.MyIcon;
+        //icon.enabled = true;
         icon.color = Color.white; //keeping icon not transparent
     }
 
@@ -53,11 +59,13 @@ public class HandScript : MonoBehaviour
         IMoveable tmp = MyMoveable;
         MyMoveable = null;
         icon.color = new Color(0, 0, 0, 0);
+        //icon.enabled = false;
         return tmp;
     }
     public void Drop()
     {
         MyMoveable = null;
+        //icon.enabled = false;
         icon.color = new Color(0, 0, 0, 0);
         Inventory.MyInstance.FromSlot = null;
     }
