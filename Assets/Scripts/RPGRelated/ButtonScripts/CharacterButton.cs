@@ -13,8 +13,11 @@ public class CharacterButton : MonoBehaviour, IPointerClickHandler, IPointerEnte
 
     public VFXController vfxControl;
 
-    public StatsWindow statsWindow;
-
+    private StatsWindow statsWindow;
+    public void Awake()
+    {
+        statsWindow = GetComponent<StatsWindow>();
+    }
     public Weapon getWeapon()
     {
         return this.equippedWeapon;
@@ -61,7 +64,9 @@ public class CharacterButton : MonoBehaviour, IPointerClickHandler, IPointerEnte
         this.equippedWeapon = weapon; //reference to equipped weapon
         this.equippedWeapon.MyCharacterButton = this;
         StartCoroutine(vfxControl.Play());
-        //StatsWindow.ChangeText();
+
+        //this.statsWindow.ChangeText();
+
         if (HandScript.MyInstance.MyMoveable == (weapon as IMoveable))
         {
             HandScript.MyInstance.Drop();
