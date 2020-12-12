@@ -22,24 +22,32 @@
     <list default="true" id="24702268-5b8f-4822-8598-8aa3968f5b2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xeno_Knight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Back.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Back.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Forward.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Forward.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Left.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow/Aim Walk Right.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FreeBarrowsWagons/textures/hay.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FreeBarrowsWagons/textures/hay.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sword.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AimDownSightsBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AimDownSightsBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bow Enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bow Enemy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Swordsman.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Swordsman.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExitAimDownSightsBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExitAimDownSightsBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free medieval weapons/Prefabs/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free medieval weapons/Prefabs/Arrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Archer Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Archer Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Knight Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Knight Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Erick.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Erick.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Melee/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Melee/Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Range/StrongBow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Range/StrongBow.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BowStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BowStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/SwordStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/SwordStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +57,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Sword-Demo/Assets/Scripts/SwordCollision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Downloads - data drive/NPCMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Downloads - data drive/NavRayFleeNPC - v2/Assets/Scripts/NPCMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Sword-Demo/Assets/Scripts/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/WeaponStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BowStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BagScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/SwordStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/AimDownSightsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/ExitAimDownSightsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Play.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/ArrowScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/SwordStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/BowStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RPGRelated/Inventory.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +133,7 @@
       <workItem from="1607543455212" duration="168000" />
       <workItem from="1607652371655" duration="187000" />
       <workItem from="1607714129666" duration="67000" />
-      <workItem from="1607714558467" duration="6004000" />
+      <workItem from="1607714558467" duration="24078000" />
     </task>
     <servers />
   </component>
@@ -132,9 +157,34 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="2321" height="1387" key="dock-window-1" timestamp="1607721725672">
+    <state x="0" y="0" width="2321" height="1387" maximized="true" key="dock-window-1" timestamp="1607727566096">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="0" y="0" width="2321" height="1387" key="dock-window-1/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607721725672" />
+    <state x="0" y="0" width="2321" height="1387" maximized="true" key="dock-window-1/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607727566096" />
+    <state x="-1287" y="0" width="1294" height="1407" key="dock-window-2" timestamp="1607729456739">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1" y="-19" width="2321" height="1387" maximized="true" key="dock-window-2/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607729100249" />
+    <state x="-1287" y="0" width="1294" height="1407" key="dock-window-2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1607729456739" />
+    <state x="871" y="35" width="1165" height="1370" maximized="true" key="dock-window-3" timestamp="1607735102591">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="871" y="35" width="1165" height="1370" maximized="true" key="dock-window-3/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607735102591" />
+    <state x="1464" y="0" width="1038" height="1379" maximized="true" key="dock-window-4" timestamp="1607735102591">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1464" y="0" width="1038" height="1379" maximized="true" key="dock-window-4/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607735102591" />
+    <state x="31" y="0" width="2321" height="1387" key="dock-window-5" timestamp="1607737437209">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="31" y="0" width="2321" height="1387" key="dock-window-5/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607737437209" />
+    <state x="-1287" y="0" width="1294" height="1407" key="dock-window-6" timestamp="1607740850198">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1287" y="0" width="1294" height="1407" key="dock-window-6/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1607740850198" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1607732611662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-2560.0.2560.1400/0.0.2560.1400@-2560.0.2560.1400" timestamp="1607732611662" />
   </component>
 </project>

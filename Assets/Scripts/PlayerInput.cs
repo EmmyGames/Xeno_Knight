@@ -50,13 +50,17 @@ public class PlayerInput : MonoBehaviour
             isAttacking = false;
         }
         //When holding left click and holding a ranged weapon, the player is aiming down sights
-        if (Input.GetButton("Attack") && playerScript.weaponStatus.weaponTypeInt == 2)
+        if (Input.GetButtonDown("Attack") && playerScript.weaponStatus.weaponTypeInt == 2)
         {
             isADS = true;
+            //playerScript.bow.GetComponentInChildren<ArrowScript>().CreateArrow();
+            playerScript.bow.GetComponentInChildren<ArrowScript>().ShowArrow();
         }
-        else
+        else if(Input.GetButtonUp("Attack") && playerScript.weaponStatus.weaponTypeInt == 2)
         {
             isADS = false;
+            playerScript.bow.GetComponentInChildren<ArrowScript>().FireArrow();
+            playerScript.bow.GetComponentInChildren<ArrowScript>().DontShowArrow();
         }
 
         toggleMouse = false || Input.GetButtonDown("CharacterMenu");

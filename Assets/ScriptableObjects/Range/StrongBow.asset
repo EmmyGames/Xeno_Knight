@@ -18,6 +18,6 @@ MonoBehaviour:
   quality: 2
   weaponType: 1
   name: Crossbow
-  attack: 6
+  attack: 15
   durability: 6
   defense: 0

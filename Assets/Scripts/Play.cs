@@ -18,7 +18,7 @@ public class Play : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log("hitting start");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Play Game");
         }
     }
 }

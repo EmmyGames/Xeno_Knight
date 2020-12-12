@@ -19,40 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetButtonDown("CharacterMenu"))
-        {
-            if (Cursor.visible == false)
-            {
-                Cursor.visible = true;
-            }
-            else
-            {
-                Cursor.visible = false;
-            }
-            /*if (Cursor.lockState == CursorLockMode.Locked)
-                Cursor.lockState = CursorLockMode.None;
-            else
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-            }*/
-            //Cursor.visible = !Cursor.visible;
-        }
-        /*if (playerInput.toggleMouse)
-        {
-            if(Cursor.lockState == CursorLockMode.Locked)
-                Cursor.lockState = CursorLockMode.None;
-            else
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-            }
-            //Cursor.visible = !Cursor.visible;
-        }*/
     }
 }

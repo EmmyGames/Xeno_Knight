@@ -13,6 +13,7 @@ public class BowStats : MonoBehaviour
     private SkinnedMeshRenderer _skinnedMeshRenderer;
     private bool _isCollected = false;
     private Collider _player;
+    public GameObject arrow;
 
     private void Start()
     {
@@ -49,6 +50,11 @@ public class BowStats : MonoBehaviour
     {
         weaponColliders[1].enabled = false;
         _skinnedMeshRenderer.enabled = false;
+    }
+
+    public void CreatArrow()
+    {
+        
     }
 }
 

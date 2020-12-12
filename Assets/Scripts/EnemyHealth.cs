@@ -16,7 +16,13 @@ public class EnemyHealth : MonoBehaviour
     ParticleSystem hitParticles;
     public Slider enemySlider;
 
-    bool isDead; //wether or not enemy is dead
+    public bool isDead;
+
+    private int _isDead;
+    private int _isMoving;
+    private int _isSprinting;
+    private int _isAttacking;
+    private int _isADS;
 
     //public NavMeshAgent nav; //****IDK if either of these are being used or if you want to turn it off****
     //public Rigidbody body; 
@@ -30,6 +36,11 @@ public class EnemyHealth : MonoBehaviour
         // attack = GetComponent<AttackBehavior>();
         enemySlider.gameObject.SetActive(false);
 
+        _isDead = Animator.StringToHash("isDead");
+        _isAttacking = Animator.StringToHash("isAttacking");
+        _isSprinting = Animator.StringToHash("isSprinting");
+        _isMoving = Animator.StringToHash("isMoving");
+        _isADS = Animator.StringToHash("isADS");
     }
 
     private void Update()
@@ -50,7 +61,7 @@ public class EnemyHealth : MonoBehaviour
             return; //exit function
         
         //hitParticles.transform.position.hitPoint;
-        this.hitParticles.Play();
+        hitParticles.Play();
 
         if (currentHealth <= 0)
         {
@@ -61,11 +72,8 @@ public class EnemyHealth : MonoBehaviour
     void Death()
     {
         isDead = true;
-        //set animation trigger for death
-        /*this.nav.enabled = false;
-        this.GetComponent<NavMeshAgent>().enabled = false;
-        this.attack.enabled = false;*/
-
-        Destroy(this.gameObject, 1.5f);
+        anim.SetBool(_isDead, isDead);
+        Destroy(gameObject, 1.5f);
     }
 }
+

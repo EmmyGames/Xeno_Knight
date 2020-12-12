@@ -6,8 +6,6 @@
     <e p="D:\Documents - data drive\GitHub\Repositories\Xeno_Knight" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AimDownSightsBehavior.cs" t="Include" />
-        <e p="ExitAimDownSightsBehavior.cs" t="Include" />
         <e p="Flooded_Grounds" t="Include">
           <e p="Content" t="Include">
             <e p="Shaders" t="Include">
@@ -79,8 +77,12 @@
           <e p="Weapon.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AimDownSightsBehavior.cs" t="Include" />
+          <e p="Arrow.cs" t="Include" />
+          <e p="ArrowScript.cs" t="Include" />
           <e p="AttackBehavior.cs" t="Include" />
           <e p="EnemyHealth.cs" t="Include" />
+          <e p="ExitAimDownSightsBehavior.cs" t="Include" />
           <e p="LookDirectionController.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="Play.cs" t="Include" />

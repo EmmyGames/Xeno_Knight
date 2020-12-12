@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,9 +14,11 @@ public class PlayerStats : MonoBehaviour
     public int playerDefense;
     public int totalEXP;
     public int currentEXP;
+    public int playerLevel;
     void Start()
     {
-        
+        playerLevel = 1;
+        playerAttack = 3;
     }
 
     // Update is called once per frame
@@ -30,5 +33,16 @@ public class PlayerStats : MonoBehaviour
          * totalEXP += expCurve
          * 
          */
+    }
+
+    public void GainEXP(int xp)
+    {
+        currentEXP += xp;
+        if (currentEXP > totalEXP)
+        {
+            playerLevel++;
+            currentEXP -= totalEXP;
+            totalEXP += (int)Math.Ceiling(totalEXP * 1.1f);
+        }
     }
 }

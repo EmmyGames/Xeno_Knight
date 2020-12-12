@@ -91,13 +91,15 @@ public class UIManager : MonoBehaviour
     public void InfoOpenClose()
     {
         infoCanvas.alpha =  infoCanvas.alpha > 0 ? 0 : 1; //if 0 then set to 1, if 1 then set to 0
-        infoCanvas.blocksRaycasts = infoCanvas.blocksRaycasts == true ? false : true; //if raycast blocking is true then set to false, else set to true*/
+        infoCanvas.blocksRaycasts = infoCanvas.blocksRaycasts != true; //if raycast blocking is true then set to false, else set to true*/
     }
 
     public void CursorOpenClose()
     {
         Debug.Log("show cursor");
         cursorCanvas.alpha = cursorCanvas.alpha > 0 ? 0 : 1; //if 0 then set to 1, if 1 then set to 0
-        cursorCanvas.blocksRaycasts = cursorCanvas.blocksRaycasts == true ? false : true; //if raycast blocking is true then set to false, else set to true*/
+        cursorCanvas.blocksRaycasts = cursorCanvas.blocksRaycasts != true; //if raycast blocking is true then set to false, else set to true*/
+        Cursor.lockState = Cursor.lockState == CursorLockMode.Locked ? CursorLockMode.None : CursorLockMode.Locked;
+        Cursor.visible = Cursor.visible == false;
     }
 }

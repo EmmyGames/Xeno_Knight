@@ -110,16 +110,15 @@ public class Inventory : MonoBehaviour
         }*/
         if (Input.GetButtonDown("AddWeapon"))  //h- add weapon to inventory
         {
-            Debug.Log("AddWeapon to Inventory");
             AddItem((Weapon)Instantiate(items[1]));
             AddItem((Weapon)Instantiate(items[2]));
             AddItem((Weapon)Instantiate(items[3]));
-            AddItem((Weapon)Instantiate(items[4]));
+            /*AddItem((Weapon)Instantiate(items[4]));
             AddItem((Weapon)Instantiate(items[5]));
             AddItem((Weapon)Instantiate(items[6]));
             AddItem((Weapon)Instantiate(items[7]));
             AddItem((Weapon)Instantiate(items[8]));
-            AddItem((Weapon)Instantiate(items[9]));
+            AddItem((Weapon)Instantiate(items[9]));*/
         }
     }
     /*public void AddBag(Bag bag)

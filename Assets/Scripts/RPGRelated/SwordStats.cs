@@ -11,6 +11,7 @@ public class SwordStats : MonoBehaviour
     private MeshRenderer _meshRenderer;
     private bool _isCollected = false;
     private Collider _player;
+    public WeaponStatus weaponStatus;
 
     private void Start()
     {
@@ -23,17 +24,12 @@ public class SwordStats : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Player" && !_isCollected)
+        if (other.gameObject.CompareTag("Enemy") && !weaponStatus.playerScript.playerAnimation.anim.GetBool(weaponStatus.playerScript.playerAnimation.shouldMove))
         {
-            _player = other;
-            weaponColliders[0].enabled = false;
-            _meshRenderer.enabled = false;
-            _isCollected = true;
-            /*
-             * add item to inventory
-             */
-            /*AttackValue.text = "Attack: " + weapon.attack.ToString();
-            DurabilityValue.text = "Durability: " + weapon.durability.ToString();*/
+            Debug.Log("hit");
+            var swordAttack = weaponStatus.weaponAttack;
+            var playerAttack = weaponStatus.playerScript.playerStats.playerAttack;
+            other.GetComponent<EnemyHealth>().TakeDamage(playerAttack + swordAttack);
         }
     }
 
